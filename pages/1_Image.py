@@ -7,7 +7,7 @@ st.title("antiBAD — Image Demo")
 
 @st.cache_resource
 def load_model():
-    return YOLO("models/model.pt")  # <-- поменяй на твой .pt
+    return YOLO("models/YOLOv8_Small_RDD.pt")  # <-- поменяй на твой .pt
 
 model = load_model()
 
